@@ -11,4 +11,4 @@ RUN apt-get update \
 WORKDIR /opt/cypress
 
 RUN echo '{}' > package.json && \
-    npm install cypress@3.3.2
+    npm install cypress@3.4.0
